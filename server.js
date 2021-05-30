@@ -19,7 +19,7 @@ app.post('/', async (req, res) => {
     let response;
 
     // API
-    const apiToFetch = "https://ws.pagseguro.uol.com.br/v2/checkout?email=marco_meireles@ig.com.br&token=AA91EBBCCCD547E9ABA425583D6B59BA";
+    const apiToFetch = "https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=marco_meireles@ig.com.br&token=AA91EBBCCCD547E9ABA425583D6B59BA";
 
     // cria a string a ser passada
     const payload = jsonToUrlEncoded(body);
