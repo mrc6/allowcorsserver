@@ -20,7 +20,8 @@ app.post('/', async (req, res) => {
 
     // API
     // const apiToFetch = "https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=marco_meireles@ig.com.br&token=AA91EBBCCCD547E9ABA425583D6B59BA"; //sandbox
-    const apiToFetch = "https://ws.pagseguro.uol.com.br/v2/checkout?email=marco_meireles@ig.com.br&token=F25371AC24F6487084406B270E8DC4F2"; //produção
+    // const apiToFetch = "https://ws.pagseguro.uol.com.br/v2/checkout?email=marco_meireles@ig.com.br&token=F25371AC24F6487084406B270E8DC4F2"; //produção
+    const apiToFetch = "https://pagseguro.uol.com.br/v2/checkout?email=marco_meireles@ig.com.br&token=AA91EBBCCCD547E9ABA425583D6B59BA"; //sandbox
 
     // cria a string a ser passada
     const payload = jsonToUrlEncoded(body);
